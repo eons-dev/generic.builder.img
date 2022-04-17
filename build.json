@@ -17,7 +17,7 @@
                     "cmake",
                     "gdb",
                     "gcc-arm-none-eabi",
-                    "gdb-arm-none-eabi",
+                    "binutils-arm-none-eabi",
                     "openocd",
                     "gcc-aarch64-linux-gnu"
                 ]
