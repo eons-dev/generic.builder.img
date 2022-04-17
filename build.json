@@ -1,0 +1,28 @@
+{
+    "ebbs_next":
+    [
+        {
+            "build": "docker",
+            "run_when": [
+            	"release"
+            ],
+            "config":
+            {
+                "base_image": "ubuntu:latest",
+                "image_name": "eons/img_generic-builder",
+                "image_os": "debian",
+                "install":
+                [
+                    "build-essential",
+                    "cmake",
+                    "gdb",
+                    "gcc-arm-none-eabi",
+                    "binutils-arm-none-eabi",
+                    "gdb-arm-none-eabi",
+                    "openocd",
+                    "gcc-aarch64-linux-gnu"
+                ]
+            }
+        }
+    ]
+}
