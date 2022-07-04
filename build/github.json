@@ -1,5 +1,9 @@
 {
-    "ebbs_next":
+    "name": "generic-builder",
+    "type": "img",
+    "build_in": "github",
+    "clear_build_path": true,
+    "next":
     [
         {
             "build": "docker",
@@ -8,7 +12,7 @@
             ],
             "config":
             {
-                "base_image": "ubuntu:latest",
+                "base_image": "eons/img_base",
                 "image_name": "eons/img_generic-builder",
                 "image_os": "debian",
                 "install":

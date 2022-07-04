@@ -1,3 +1,7 @@
-build/
-eons/
-ebbs/
+#build
+build/**/
+/local/
+build.json
+
+#intellij
+/.idea/
