@@ -30,7 +30,8 @@
                     "openocd",
                     "gcc-aarch64-linux-gnu",
                     "openssl",
-                    "libssl-dev"
+                    "libssl-dev",
+                    "git"
                 ],
                 "tags" : [
                     "latest"
