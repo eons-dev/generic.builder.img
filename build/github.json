@@ -8,7 +8,7 @@
         {
             "build": "docker",
             "run_when": [
-            	"release"
+                "release"
             ],
             "config":
             {
@@ -28,7 +28,9 @@
                     "gcc-arm-none-eabi",
                     "binutils-arm-none-eabi",
                     "openocd",
-                    "gcc-aarch64-linux-gnu"
+                    "gcc-aarch64-linux-gnu",
+                    "openssl",
+                    "libssl-dev"
                 ],
                 "tags" : [
                     "latest"
