@@ -20,6 +20,7 @@
                     "python3-pip",
                     "ca-certificates",
                     "curl",
+                    "wget",
                     "gnupg",
                     "lsb-release",
                     "build-essential",
