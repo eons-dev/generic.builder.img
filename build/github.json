@@ -26,13 +26,18 @@
                     "build-essential",
                     "cmake",
                     "gdb",
+                    "libncurses5-dev",
+                    "libreadline-dev",
                     "gcc-arm-none-eabi",
                     "binutils-arm-none-eabi",
                     "openocd",
                     "gcc-aarch64-linux-gnu",
                     "openssl",
+                    "liblzo2-dev",
+                    "libz-dev",
                     "libssl-dev",
-                    "git"
+                    "git",
+                    "texinfo"
                 ],
                 "tags" : [
                     "latest"
