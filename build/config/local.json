@@ -1,15 +1,8 @@
 {
-    "name": "generic-builder",
-    "type": "img",
-    "build_in": "github",
-    "clear_build_path": true,
     "next":
     [
         {
             "build": "docker",
-            "run_when": [
-                "release"
-            ],
             "config":
             {
                 "base_image": "eons/img_base",
