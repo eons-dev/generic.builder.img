@@ -7,7 +7,7 @@
         "release"
       ],
       "build" : "proxy",
-      "build_in" : "img_generic-builder",
+      "build_in" : "generic-builder.img",
       "config" : {
         "clear_build_path" : false,
         "proxy" : "../../config/local.json",
@@ -19,7 +19,7 @@
             "build" : "docker_publish",
             "build_in" : "./",
             "config" : {
-              "image_name": "eons/img_generic-builder",
+              "image_name": "eons/generic-builder.img",
               "clear_build_path" : false
             }
           }

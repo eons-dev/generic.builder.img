@@ -5,8 +5,8 @@
             "build": "docker",
             "config":
             {
-                "base_image": "eons/img_base",
-                "image_name": "eons/img_generic-builder",
+                "base_image": "eons/base.img",
+                "image_name": "eons/generic-builder.img",
                 "image_os": "alpine",
                 "install":
                 [
