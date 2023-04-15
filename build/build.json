@@ -1,5 +1,5 @@
 {
-  "name": "generic-builder",
+  "name": "generic.builder",
   "type": "img",
   "clear_build_path" : true,
   "build_in" : "tmp",

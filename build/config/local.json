@@ -6,7 +6,7 @@
             "config":
             {
                 "base_image": "eons/base.img",
-                "image_name": "eons/generic-builder.img",
+                "image_name": "eons/generic.builder.img",
                 "image_os": "alpine",
                 "install":
                 [
@@ -27,7 +27,6 @@
                     "openssl-dev",
                     "lzo-dev",
                     "zlib-dev",
-                    "libressl-dev",
                     "git",
                     "texinfo"
                 ],
